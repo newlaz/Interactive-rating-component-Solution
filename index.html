@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="flex__element">
+  <main class="flex__element card" id="card">
+  </main>
+
+  <footer class="footer">
+    Challenge by <a class="footer__links" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+      Mentor</a>.
+    Coded by <a class="footer__links" href="#">Bryan Lazo</a>.
+  </footer>
+  <template id="cardTemplate">
+    <img class="card__img-principal" id="cardImage">
+    <p id="displayScore" class="card__score">You selected <span id="scoreChose">4</span> of 5</p>
+    <h1 class="card__title" id="cardTitle"></h1>
+    <p class="card__paragraph" id="cardParagraph"></p>
+    <fieldset id="buttonContainer" class="card__btn-container">
+    </fieldset>
+    <button class="card__btn__submit" id="btnSubmit">Submit</button>
+  </template>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
